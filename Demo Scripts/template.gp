@@ -1,7 +1,7 @@
 #https://thetimetube.herokuapp.com/gnuplotviewer/
 
 set terminal svg enhanced font "Arial,16"
-set output 'demo1.svg'
+set output '<Experiment-Number>.svg'
 
 # Physical Constant 
 c = 299792458.0 # Speed of light 
@@ -16,8 +16,10 @@ mu0 = 4*pi*1e-7 # Permiability of free space
 a0 = 4*pi*eps0*hbar**2/(me*e**2) # Bohr Radius
 alpha = e**2/(4*pi*eps0*hbar*c) # Fine strcuture constant
 hartee = me*c**2 * alpha**2/e
+
 #-----------------------------------------------------------------
 #Line Styles
+
 set style line 1 linecolor rgb "#E41A1C" lw 2 pt 7 ps 1.5 # Red (Circle)
 set style line 2 linecolor rgb "#377EB8" lw 2 pt 5 ps 1.5 # Blue (Square)
 set style line 3 linecolor rgb "#4DAF4A" lw 2 pt 9 ps 1.5 # Green (Triangle)
@@ -32,9 +34,10 @@ set title 'Name/ID : AARAV ANKIT SHAH / 2023B5AD1325P'
 set key top left  Left width -4
 set grid
 
-set xlabel "X-label"
-set ylabel "Y-label"
+set xlabel "<X-label>"
+set ylabel "<Y-label>"
 
+# Either set autoscale or custom range (default- autoscale)
 set autoscale 
 #set xrange[0:10] 
 #set yrange[-1:1]
