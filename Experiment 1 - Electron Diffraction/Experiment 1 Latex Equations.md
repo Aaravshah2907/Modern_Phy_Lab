@@ -18,3 +18,6 @@ $$
 $$
 d \approx \frac{2R\lambda}{r} \implies r=\frac{2R}{d} \lambda
 $$
+$$
+m = \frac{n \sum xy -\left( \sum x \right)\left( \sum y \right)}{n\left( \sum x^{2} \right) - \left( \sum x \right)^{2}}
+$$

@@ -1,7 +1,7 @@
 from math import sqrt, sin, asin
 import csv
 
-wavelength_constant = 5.484743634e-11
+wavelength_constant = 3.878299416e-11
 
 def calculate_wavelength(potential :float) -> float:
     return wavelength_constant / sqrt(potential)
@@ -86,7 +86,9 @@ def average_value(Z)->float:
             for row in reader:
                 data.append(float(row[Z]))
     return sum(data)/len(data)
-# calculate_wavelength_from_csv()
+
+
+calculate_wavelength_from_csv()
 print(calculate_slope_from_csv(Y='R1(mm)', X='Wavelength(pm)'))
 print(calculate_slope_from_csv(Y='R2(mm)', X='Wavelength(pm)'))
 calculate_d_theoretical(X='R1(mm)', Y='Wavelength(pm)',Z='d1_wo_app(pm)')
