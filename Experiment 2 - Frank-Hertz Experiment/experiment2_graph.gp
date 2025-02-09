@@ -2,8 +2,7 @@
 
 set terminal svg enhanced font "Arial,16"
 set datafile separator ","
-set output '<Experiment-Number>.svg'
-
+set output 'Experimental_graph.svg'
 
 # Physical Constant 
 c = 299792458.0 # Speed of light 
@@ -22,9 +21,9 @@ hartee = me*c**2 * alpha**2/e
 #-----------------------------------------------------------------
 #Line Styles
 
-set style line 1 linecolor rgb "#E41A1C" lw 2 pt 7 ps 1.5 # Red (Circle)
-set style line 2 linecolor rgb "#377EB8" lw 2 pt 5 ps 1.5 # Blue (Square)
-set style line 3 linecolor rgb "#4DAF4A" lw 2 pt 9 ps 1.5 # Green (Triangle)
+set style line 1 linecolor rgb "#E41A1C" lw 2 pt 7 ps 0.15 # Red (Circle)
+set style line 2 linecolor rgb "#377EB8" lw 2 pt 7 ps 0.15 # Blue (Square)
+set style line 3 linecolor rgb "#4DAF4A" lw 2 pt 7 ps 0.15 # Green (Triangle)
 set style line 4 linecolor rgb "#FF7F00" lw 2 pt 11 ps 1.5 # Orange (Star)
 set style line 5 linecolor rgb "#984EA3" lw 2 pt 13 ps 1.5 # Purple (Diamond)
 set style line 6 linecolor rgb "#A65628" lw 2 pt 6 ps 1.5 # Brown (Cross)
@@ -36,20 +35,18 @@ set title 'Name/ID : AARAV ANKIT SHAH / 2023B5AD1325P'
 set key top left  Left width -4
 set grid
 
-set xlabel "<X-label>"
-set ylabel "<Y-label>"
+set xlabel "Potential VG2K"
+set ylabel "Current (nA)"
 
 # Either set autoscale or custom range (default- autoscale)
 set autoscale 
 #set xrange[0:10] 
 #set yrange[-1:1]
 
-Calculate(x) = me * x / mp # User define function
+#Calculate(x) = me * x / mp # User define function
 
-set label "B = 400 Gauss" at 3,20
+#set label "B = 400 Gauss" at 3,20
 
-plot 'file_one_set.dat' using 1:2 title 'f(x)' w lp ls 1,\
-'file_one_set.dat' using 1:3 title 'g(x)' w lp ls 2,\
-'file_one_set.dat' using 1:(Calculate($2)) title 'Calculate(x)' w lp ls 3,\
-'file_one_set.dat' using 1:(sin(4*$3)) title 'sin[g(x)]' w lp ls 4,
-
+plot 'original_readings.csv' using 1:2 title '(VG1K=1.5V, VG2A=7.5V)' w lp ls 1,\
+'original_readings.csv' using 1:3 title '(VG1K=2.5V, VG2A=7.5V)' w lp ls 2,\
+'original_readings.csv' using 1:4 title '(VG1K=1.5V, VG2A=5V)' w lp ls 3,\
