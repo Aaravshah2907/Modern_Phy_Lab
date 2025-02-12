@@ -67,3 +67,8 @@ def calculate_slope_from_csv(X, Y)-> float:
     slope = (n*xy_sum-(x_sum)*(y_sum))/(n*x_squared_sum-(x_sum)**2)
 
     return slope
+
+print("d = 2 cm,\nslope = ", calculate_slope_from_csv('U(V)', 'I_2**2'))
+print("d = 3 cm,\nslope = ", calculate_slope_from_csv('U(V)', 'I_3**2'))
+print("d = 4 cm,\nslope = ", calculate_slope_from_csv('U(V)', 'I_4**2'))
+print("d = 5 cm,\nslope = ", calculate_slope_from_csv('U(V)', 'I_5**2'))
