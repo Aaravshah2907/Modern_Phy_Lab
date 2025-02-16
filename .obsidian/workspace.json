@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Experiment 3 - Specific Charge of Electron/Experiment 3 Latex Equations.md",
+                "file": "Experiment 5 - Rydbergs Constant Using Balmer Series/Experiment 5 Latex Equations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Experiment 3 Latex Equations"
+              "title": "Experiment 5 Latex Equations"
             }
           }
         ]
@@ -163,8 +163,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d57c17fbc08f1e0",
+  "active": "17b3885f9f77312f",
   "lastOpenFiles": [
+    "Experiment 5 - Rydbergs Constant Using Balmer Series/Original_readings.csv",
+    "Experiment 5 - Rydbergs Constant Using Balmer Series/Experiment-Data - Original_readings.csv",
+    "Experiment 4 - Electron Spin Resonance/Experiment 4 Latex Equations.md",
+    "Experiment 5 - Rydbergs Constant Using Balmer Series/Experiment 5 Latex Equations.md",
+    "Experiment 5 - Rydbergs Constant Using Balmer Series/script.sh",
+    "Experiment 5 - Rydbergs Constant Using Balmer Series/experiment4_graph.gp",
+    "Experiment 5 - Rydbergs Constant Using Balmer Series/calculations.py",
+    "Experiment 5 - Rydbergs Constant Using Balmer Series/Experiment-Data.gsheet",
+    "Experiment 5 - Rydbergs Constant Using Balmer Series",
+    "Experiment 3 - Specific Charge of Electron/Experiment 3 Latex Equations.md",
     "Experiment 3 - Specific Charge of Electron/Experimental_graph.png",
     "Experiment 3 - Specific Charge of Electron/Experimental_graph.svg.png",
     "Experiment 3 - Specific Charge of Electron/Experimental_graph.svg",
@@ -172,14 +182,7 @@
     "Experiment 3 - Specific Charge of Electron/original_readings.csv",
     "Experiment 3 - Specific Charge of Electron/experimental_readings.csv",
     "Experiment 3 - Specific Charge of Electron/venv/bin/activate",
-    "Experiment 3 - Specific Charge of Electron/venv/bin/activate.fish",
-    "Experiment 3 - Specific Charge of Electron/venv/bin/Activate.ps1",
-    "Experiment 3 - Specific Charge of Electron/venv/bin/activate.csh",
-    "Experiment 3 - Specific Charge of Electron/venv/lib/python3.13/site-packages/pip-24.3.1.dist-info/REQUESTED",
-    "Experiment 3 - Specific Charge of Electron/venv/lib/python3.13/site-packages/pip-24.3.1.dist-info/INSTALLER",
-    "Experiment 3 - Specific Charge of Electron/venv/bin/pip3.13",
     "Experiment 1 - Electron Diffraction/Experiment 1 Latex Equations.md",
-    "Experiment 3 - Specific Charge of Electron/Experiment 3 Latex Equations.md",
     "Experiment 2 - Frank-Hertz Experiment/Experiment 2 Latex Equations.md"
   ]
 }
