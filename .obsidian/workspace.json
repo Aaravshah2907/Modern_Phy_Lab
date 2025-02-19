@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "Experiment 5 Latex Equations"
             }
+          },
+          {
+            "id": "07660a8f21475288",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ]
       }
@@ -163,12 +175,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "17b3885f9f77312f",
+  "active": "9d57c17fbc08f1e0",
   "lastOpenFiles": [
-    "Experiment 5 - Rydbergs Constant Using Balmer Series/Original_readings.csv",
-    "Experiment 5 - Rydbergs Constant Using Balmer Series/Experiment-Data - Original_readings.csv",
+    "Experiment 5 - Rydbergs Constant Using Balmer Series/Balmer_Series.pdf",
     "Experiment 4 - Electron Spin Resonance/Experiment 4 Latex Equations.md",
     "Experiment 5 - Rydbergs Constant Using Balmer Series/Experiment 5 Latex Equations.md",
+    "Experiment 5 - Rydbergs Constant Using Balmer Series/Original_readings.csv",
+    "Experiment 5 - Rydbergs Constant Using Balmer Series/Experiment-Data - Original_readings.csv",
     "Experiment 5 - Rydbergs Constant Using Balmer Series/script.sh",
     "Experiment 5 - Rydbergs Constant Using Balmer Series/experiment4_graph.gp",
     "Experiment 5 - Rydbergs Constant Using Balmer Series/calculations.py",
@@ -181,7 +194,6 @@
     "Experiment 3 - Specific Charge of Electron/Experiment3-Data.gsheet",
     "Experiment 3 - Specific Charge of Electron/original_readings.csv",
     "Experiment 3 - Specific Charge of Electron/experimental_readings.csv",
-    "Experiment 3 - Specific Charge of Electron/venv/bin/activate",
     "Experiment 1 - Electron Diffraction/Experiment 1 Latex Equations.md",
     "Experiment 2 - Frank-Hertz Experiment/Experiment 2 Latex Equations.md"
   ]

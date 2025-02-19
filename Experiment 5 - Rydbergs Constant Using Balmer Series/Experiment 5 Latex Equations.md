@@ -62,3 +62,6 @@ $$
 $$
 \frac{1}{\lambda} = R_{\infty}\left[ \frac{1}{2^{2}} - \frac{1}{(n)^{2}} \right]; n\geq 3
 $$
+$$
+277.5^{\circ}
+$$
