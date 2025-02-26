@@ -35,8 +35,8 @@ set title 'Name/ID : AARAV ANKIT SHAH / 2023B5AD1325P'
 set key top left  Left width -4
 set grid
 
-set xlabel "(1/2^2 - 1/n^2)"
-set ylabel "Wavelength Inverse (1/m)"
+set xlabel "Volts (V)"
+set ylabel "ln I (unitless)"
 
 # Either set autoscale or custom range (default- autoscale)
 set autoscale 
@@ -47,5 +47,4 @@ set autoscale
 
 #set label "B = 400 Gauss" at 3,20
 
-plot 'experimental_readings.csv' using 13:($3==1?$12:1/0) title 'm = 1' w lp ls 1,\
-'experimental_readings.csv' using 13:($3==2?$12:1/0) title 'm = 2' w lp ls 2,\
+plot 'experimental_readings.csv' using 1:3 title 'ln I vs V' w lp ls 1,\
